@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fundtrail"
+version = "0.1.0"
+description = "Early-prototype on-chain security monitor: RPC tip checks, bounty diffs, follow-the-funds tracing."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = ["requests>=2.28", "PyYAML>=6.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+fundtrail = "fundtrail.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["fundtrail*"]
+
+[tool.setuptools.package-data]
+fundtrail = ["data/*.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

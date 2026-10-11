@@ -1,0 +1,38 @@
+# Bundled address labels. Addresses are matched case-insensitively per chain.
+# Every entry carries a `source` URL (official docs, official deployment config,
+# or the explorer's public name tag). All entries were checked on 11 Oct 2026:
+# eth_getCode returns contract bytecode on the listed chain, and the address
+# matches the cited source. Pull requests that add sources or fix entries are welcome.
+
+ethereum:
+  "0xd90e2f925da726b50c4ed8d0fb90ad053324f31b": {name: "Tornado Cash Router", kind: mixer, source: "https://etherscan.io/address/0xd90e2f925da726b50c4ed8d0fb90ad053324f31b"}
+  "0x722122df12d4e14e13ac3b6895a86e84145b6967": {name: "Tornado Cash Proxy", kind: mixer, source: "https://etherscan.io/address/0x722122df12d4e14e13ac3b6895a86e84145b6967"}
+  "0x12d66f87a04a9e220743712ce6d9bb1b5616b8fc": {name: "Tornado Cash 0.1 ETH", kind: mixer, source: "https://etherscan.io/address/0x12d66f87a04a9e220743712ce6d9bb1b5616b8fc"}
+  "0x47ce0c6ed5b0ce3d3a51fdb1c52dc66a7c3c2936": {name: "Tornado Cash 1 ETH", kind: mixer, source: "https://etherscan.io/address/0x47ce0c6ed5b0ce3d3a51fdb1c52dc66a7c3c2936"}
+  "0x910cbd523d972eb0a6f4cae4618ad62622b39dbf": {name: "Tornado Cash 10 ETH", kind: mixer, source: "https://etherscan.io/address/0x910cbd523d972eb0a6f4cae4618ad62622b39dbf"}
+  "0xa160cdab225685da1d56aa342ad8841c3b53f291": {name: "Tornado Cash 100 ETH", kind: mixer, source: "https://etherscan.io/address/0xa160cdab225685da1d56aa342ad8841c3b53f291"}
+  "0x4dbd4fc535ac27206064b68ffcf827b0a60bab3f": {name: "Arbitrum One Delayed Inbox", kind: bridge, source: "https://docs.arbitrum.io/build-decentralized-apps/reference/contract-addresses"}
+  "0x72ce9c846789fdb6fc1f34ac4ad25dd9ef7031ef": {name: "Arbitrum One L1 Gateway Router", kind: bridge, source: "https://docs.arbitrum.io/build-decentralized-apps/reference/contract-addresses"}
+  "0x99c9fc46f92e8a1c0dec1b1747d010903e884be1": {name: "Optimism L1StandardBridge", kind: bridge, source: "https://github.com/ethereum-optimism/superchain-registry/blob/main/superchain/configs/mainnet/op.toml"}
+  "0x3154cf16ccdb4c6d922629664174b904d80f2c35": {name: "Base L1StandardBridge", kind: bridge, source: "https://docs.base.org/base-chain/network-information/base-contracts"}
+  "0xa0c68c638235ee32657e8f720a23cec1bfc77c77": {name: "Polygon PoS RootChainManager", kind: bridge, source: "https://github.com/maticnetwork/static/blob/master/network/mainnet/v1/index.json"}
+  "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5": {name: "Across SpokePool (Ethereum)", kind: bridge, source: "https://docs.across.to/reference/contract-addresses"}
+  "0x3ee18b2214aff97000d974cf647e7c347e8fa585": {name: "Wormhole Token Bridge (Ethereum)", kind: bridge, source: "https://wormhole.com/docs/products/reference/contract-addresses/"}
+
+bsc:
+  # Tornado Cash BSC addresses: netId56 section of the official Tornado Cash UI config.
+  "0x0d5550d52428e7e3175bfc9550207e4ad3859b17": {name: "Tornado Cash Proxy (BSC)", kind: mixer, source: "https://github.com/tornadocash/tornado-classic-ui/blob/master/networkConfig.js"}
+  "0x84443cfd09a48af6ef360c6976c5392ac5023a1f": {name: "Tornado Cash 0.1 BNB", kind: mixer, source: "https://github.com/tornadocash/tornado-classic-ui/blob/master/networkConfig.js"}
+  "0xd47438c816c9e7f2e2888e060936a499af9582b3": {name: "Tornado Cash 1 BNB", kind: mixer, source: "https://github.com/tornadocash/tornado-classic-ui/blob/master/networkConfig.js"}
+  "0x330bdfade01ee9bf63c209ee33102dd334618e0a": {name: "Tornado Cash 10 BNB", kind: mixer, source: "https://github.com/tornadocash/tornado-classic-ui/blob/master/networkConfig.js"}
+  "0x1e34a77868e19a6647b1f2f47b51ed72dede95dd": {name: "Tornado Cash 100 BNB", kind: mixer, source: "https://github.com/tornadocash/tornado-classic-ui/blob/master/networkConfig.js"}
+  "0xb6f6d86a8f9879a9c87f643768d9efc38c1da6e7": {name: "Wormhole Token Bridge (BSC)", kind: bridge, source: "https://wormhole.com/docs/products/reference/contract-addresses/"}
+
+arbitrum:
+  "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a": {name: "Across SpokePool (Arbitrum)", kind: bridge, source: "https://docs.across.to/reference/contract-addresses"}
+
+optimism:
+  "0x6f26bf09b1c792e3228e5467807a900a503c0281": {name: "Across SpokePool (Optimism)", kind: bridge, source: "https://docs.across.to/reference/contract-addresses"}
+
+base:
+  "0x09aea4b2242abc8bb4bb78d537a67a245a7bec64": {name: "Across SpokePool (Base)", kind: bridge, source: "https://docs.across.to/reference/contract-addresses"}

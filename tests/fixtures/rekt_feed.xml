@@ -1,0 +1,28 @@
+<rss version="2.0">
+    <channel>
+        <title>Rekt</title>
+        <link>https://www.rekt.news</link>
+        <description>Investigative journalism &amp; creative commentary</description>
+        <item>
+            <title>Transparent When You Want It, Private When You Need It</title>
+            <link>https://www.rekt.news/transparent-when-you-want-it</link>
+            <guid>https://www.rekt.news/transparent-when-you-want-it</guid>
+            <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
+            <description>Public blockchains solved settlement. They didn't solve privacy. Institutions need to protect positions, counterparty relationships, and transaction amounts without abandoning transparency entirely - </description>
+            </item>
+        <item>
+            <title>Why Privacy Matters More Than Ever in 2026</title>
+            <link>https://www.rekt.news/why-privacy-matters-2026</link>
+            <guid>https://www.rekt.news/why-privacy-matters-2026</guid>
+            <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
+            <description>Privacy is no longer a cypherpunk slogan - it’s turning into core blockchain infrastructure. Public blockchains proved they can move money quickly, but they also expose balances, relationships, and be</description>
+            </item>
+        <item>
+            <title>Social Recovery Wallets are Broken by Design</title>
+            <link>https://www.rekt.news/Social-Recovery-Wallets-are-Broken-by-Design</link>
+            <guid>https://www.rekt.news/Social-Recovery-Wallets-are-Broken-by-Design</guid>
+            <pubDate>Mon, 09 Jun 2025 00:00:00 GMT</pubDate>
+            <description>Social recovery sounds like a friendly safety net — until it isn't. In reality, it hands your security over to the very humans crypto was built to eliminate from the trust model. A UX-driven mirage of</description>
+            </item>
+        </channel>
+</rss>

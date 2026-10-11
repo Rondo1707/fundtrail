@@ -1,0 +1,23 @@
+# fundtrail example config. Anything omitted falls back to built-in defaults.
+chains:
+  ethereum:
+    rpcs: ["https://ethereum-rpc.publicnode.com", "https://eth.llamarpc.com"]
+  # bsc and polygon are optional; enable with `fundtrail tips --all`
+tips:
+  max_lag_seconds: 120
+bounties:
+  url: https://immunefi.com/public-api/bounties.json
+  snapshot: state/immunefi-snapshot.json
+trace:
+  max_hops: 2
+  max_blocks: 500     # native transfers: full-block scan cap
+  log_chunk: 2000     # eth_getLogs range; halves automatically on node errors
+  max_fanout: 25
+  min_interval: 0.1   # seconds between RPC calls
+alerts:
+  state: state/alerts-seen.json
+  sources:
+    - type: feed
+      name: rekt
+      url: https://rekt.news/rss/feed.xml
+      keywords: [exploit, hack, drained, bridge]

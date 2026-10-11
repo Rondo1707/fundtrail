@@ -1,0 +1,66 @@
+{
+ "_note": "Reconstructed from public 79thVault on-chain flows; see fixtures/README.md",
+ "chain": "bsc",
+ "start": "0xc3e90f78a918594a605d584887b2775f4b80a099",
+ "from_block": 126233690,
+ "to_block": 126269682,
+ "blocks": {
+  "126233690": {
+   "number": "0x7862c5a",
+   "transactions": [
+    {
+     "hash": "0xee0e44167518ff0071ede02a03b3710a1a8438d52616aad4bf1d5e417b37b0df",
+     "from": "0xc3e90f78a918594a605d584887b2775f4b80a099",
+     "to": "0x629b368c6bf1a9f190e38f21235033fece8a6231",
+     "value": "0x370ddcf1d96afe63000",
+     "blockNumber": "0x7862c5a"
+    }
+   ]
+  },
+  "126234927": {
+   "number": "0x786312f",
+   "transactions": [
+    {
+     "hash": "0x2fdda371cff6551159c3e4cba0846b9ba59c5d8da43ee4bd67fdf3b10864fcac",
+     "from": "0x629b368c6bf1a9f190e38f21235033fece8a6231",
+     "to": "0x1e2a669ec4e54e3960588b35eca6a075f31216a3",
+     "value": "0x4694e135b556980000",
+     "blockNumber": "0x786312f"
+    }
+   ]
+  },
+  "126269672": {
+   "number": "0x786b8e8",
+   "transactions": [
+    {
+     "hash": "0x96eb0f50995d02044383d841ff6d7acc2c27359c4d0017fcb78d0cca0520d3a0",
+     "from": "0x629b368c6bf1a9f190e38f21235033fece8a6231",
+     "to": "0x0d5550d52428e7e3175bfc9550207e4ad3859b17",
+     "value": "0xde0b6b3a7640000",
+     "blockNumber": "0x786b8e8"
+    }
+   ]
+  },
+  "126235239": {
+   "number": "0x7863267",
+   "transactions": [
+    {
+     "hash": "0x625d40cfb93a125362cb95e2875919581a18462f6abaebf4d4d1975cdb443df4",
+     "from": "0x1e2a669ec4e54e3960588b35eca6a075f31216a3",
+     "to": "0x6619467385bc26efc5d961ccf91bbf24bbba1cfd",
+     "value": "0x8ac7230489e80000",
+     "blockNumber": "0x7863267"
+    }
+   ]
+  }
+ },
+ "code": {
+  "0x6619467385bc26efc5d961ccf91bbf24bbba1cfd": "0xef010063c0c19a282a1b52b07dd5a65b58948a07dae32b"
+ },
+ "expect": {
+  "collection": "0x629b368c6bf1a9f190e38f21235033fece8a6231",
+  "secondary": "0x1e2a669ec4e54e3960588b35eca6a075f31216a3",
+  "tornado": "0x0d5550d52428e7e3175bfc9550207e4ad3859b17",
+  "relay": "0x6619467385bc26efc5d961ccf91bbf24bbba1cfd"
+ }
+}

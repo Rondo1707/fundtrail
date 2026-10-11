@@ -1,0 +1,352 @@
+[
+ {
+  "slug": "ens",
+  "project": "ENS",
+  "maxBounty": 250000,
+  "isPaused": false,
+  "inviteOnly": false,
+  "kyc": false,
+  "launchDate": "2024-05-10T03:11:00.000Z",
+  "endDate": null,
+  "rewardsToken": "USDC",
+  "updatedDate": "2026-10-08T13:43:39.663Z",
+  "rewards": [
+   {
+    "id": 51522,
+    "primacy": null,
+    "severity": "critical",
+    "assetType": "smart_contract",
+    "maxReward": 250000,
+    "minReward": 10000,
+    "rewardModel": "range",
+    "rewardCalculationPercentage": 10
+   },
+   {
+    "id": 51523,
+    "primacy": null,
+    "severity": "high",
+    "assetType": "smart_contract",
+    "maxReward": 100000,
+    "minReward": 25000,
+    "rewardModel": "range"
+   },
+   {
+    "id": 51524,
+    "primacy": "primacy_of_rules",
+    "severity": "medium",
+    "assetType": "smart_contract",
+    "fixedReward": 10000,
+    "rewardModel": "fixed"
+   },
+   {
+    "id": 51525,
+    "primacy": null,
+    "severity": "low",
+    "assetType": "smart_contract",
+    "fixedReward": 2500,
+    "rewardModel": "fixed"
+   },
+   {
+    "id": 51526,
+    "primacy": null,
+    "severity": "critical",
+    "assetType": "websites_and_applications",
+    "fixedReward": 25000,
+    "rewardModel": "fixed",
+    "otherImpactMaxReward": 10000
+   },
+   {
+    "id": 51527,
+    "primacy": null,
+    "severity": "high",
+    "assetType": "websites_and_applications",
+    "maxReward": 20000,
+    "minReward": 5000,
+    "rewardModel": "range"
+   },
+   {
+    "id": 51528,
+    "primacy": "primacy_of_rules",
+    "severity": "medium",
+    "assetType": "websites_and_applications",
+    "fixedReward": 2500,
+    "rewardModel": "fixed"
+   },
+   {
+    "id": 51529,
+    "primacy": "primacy_of_rules",
+    "severity": "low",
+    "assetType": "websites_and_applications",
+    "fixedReward": 1000,
+    "rewardModel": "fixed"
+   }
+  ],
+  "assets": [
+   {
+    "id": "1VhifmWuIJhiNqgBBEu9NA",
+    "url": "https://ens.domains"
+   },
+   {
+    "id": "3b6EMEFZTCiJIuzF1PkMwj",
+    "url": "https://metadata.ens.domains/docs"
+   },
+   {
+    "id": "4K5qQfK8FCVpQUsv8wU7hW",
+    "url": "https://github.com/ensdomains/ensdomains-landing"
+   },
+   {
+    "id": "4kO6SpylroAiGU6USq09R4",
+    "url": "https://github.com/ensdomains/ens-app-v3"
+   },
+   {
+    "id": "4nsdcxyULff8bmJnvDnD8L",
+    "url": "https://app.ens.domains/"
+   },
+   {
+    "id": "4xFPxDWSafDVwzD06MjQG",
+    "url": "https://github.com/ensdomains/ens-metadata-service"
+   },
+   {
+    "id": "5yUy17EJ8LjB0vx94El4Zf",
+    "url": "https://metadata.ens.domains/"
+   },
+   {
+    "id": "7hMUZ2kUH5Y8Rtruxw6qS8",
+    "url": "https://github.com/ensdomains/ens-contracts/wiki/ENS-Contract-Deployments"
+   },
+   {
+    "id": "99452",
+    "url": "https://immunefi.com"
+   },
+   {
+    "id": "99453",
+    "url": "https://immunefi.com"
+   },
+   {
+    "id": "101349",
+    "url": "https://docs.ens.domains/"
+   },
+   {
+    "id": "101350",
+    "url": "https://basics.ensdao.org/"
+   }
+  ],
+  "audits": [
+   {
+    "id": "db_2d93f227-ccaa-4ecb-b904-9626cf1836ce",
+    "url": "https://code4rena.com/reports/2023-04-ens",
+    "auditor": "Code4rena audit",
+    "date": "2023-04-16T00:00:00.000Z"
+   },
+   {
+    "id": "db_d27fac3b-63f3-411e-8dc6-b3b0d9900fc0",
+    "url": "https://code4rena.com/reports/2022-07-ens",
+    "auditor": "Code4rena audit",
+    "date": "2022-07-18T00:00:00.000Z"
+   },
+   {
+    "id": "1536",
+    "url": "https://immunefi.com/audit-competition/audit-competition-ens/leaderboard/#top",
+    "auditor": "Immunefi",
+    "date": "2026-10-07T00:00:00.000Z"
+   }
+  ]
+ },
+ {
+  "slug": "folksfinance",
+  "project": "Folks Finance",
+  "maxBounty": 100000,
+  "isPaused": false,
+  "inviteOnly": false,
+  "kyc": true,
+  "launchDate": "2022-03-31T17:00:00.000Z",
+  "endDate": null,
+  "rewardsToken": "USDC",
+  "updatedDate": "2026-10-08T11:43:29.084Z",
+  "rewards": [
+   {
+    "id": 51518,
+    "primacy": null,
+    "severity": "critical",
+    "assetType": "smart_contract",
+    "maxReward": 100000,
+    "minReward": 25000,
+    "rewardModel": "range",
+    "rewardCalculationPercentage": 10
+   },
+   {
+    "id": 51519,
+    "primacy": null,
+    "severity": "high",
+    "assetType": "smart_contract",
+    "maxReward": 50000,
+    "minReward": 5000,
+    "rewardModel": "range"
+   },
+   {
+    "id": 51520,
+    "primacy": null,
+    "severity": "medium",
+    "assetType": "smart_contract",
+    "fixedReward": 2500,
+    "rewardModel": "fixed"
+   },
+   {
+    "id": 51521,
+    "primacy": null,
+    "severity": "low",
+    "assetType": "smart_contract",
+    "fixedReward": 1000,
+    "rewardModel": "fixed"
+   }
+  ],
+  "assets": [
+   {
+    "id": "101324",
+    "url": "https://lora.algokit.io/mainnet/application/971350278"
+   },
+   {
+    "id": "101325",
+    "url": "https://lora.algokit.io/mainnet/application/971353536"
+   },
+   {
+    "id": "101326",
+    "url": "https://lora.algokit.io/mainnet/application/971368268"
+   },
+   {
+    "id": "101327",
+    "url": "https://lora.algokit.io/mainnet/application/2611131944"
+   },
+   {
+    "id": "101328",
+    "url": "https://lora.algokit.io/mainnet/application/971372237"
+   },
+   {
+    "id": "101329",
+    "url": "https://lora.algokit.io/mainnet/application/971373361"
+   },
+   {
+    "id": "101330",
+    "url": "https://lora.algokit.io/mainnet/application/1258524099"
+   },
+   {
+    "id": "101331",
+    "url": "https://lora.algokit.io/mainnet/application/1258515734"
+   },
+   {
+    "id": "101332",
+    "url": "https://lora.algokit.io/mainnet/application/971373611"
+   },
+   {
+    "id": "101333",
+    "url": "https://lora.algokit.io/mainnet/application/3343137163"
+   },
+   {
+    "id": "101334",
+    "url": "https://lora.algokit.io/mainnet/application/3514794123"
+   },
+   {
+    "id": "101335",
+    "url": "https://lora.algokit.io/mainnet/application/3514795114"
+   },
+   {
+    "id": "101336",
+    "url": "https://lora.algokit.io/mainnet/application/3184317016"
+   },
+   {
+    "id": "101337",
+    "url": "https://lora.algokit.io/mainnet/application/3184324594"
+   },
+   {
+    "id": "101338",
+    "url": "https://lora.algokit.io/mainnet/application/3184325123"
+   },
+   {
+    "id": "101339",
+    "url": "https://lora.algokit.io/mainnet/application/971388781"
+   },
+   {
+    "id": "101340",
+    "url": "https://lora.algokit.io/mainnet/application/971389489"
+   },
+   {
+    "id": "101343",
+    "url": "https://lora.algokit.io/mainnet/application/3184333108"
+   },
+   {
+    "id": "101344",
+    "url": "https://lora.algokit.io/mainnet/application/971333964"
+   },
+   {
+    "id": "101345",
+    "url": "https://lora.algokit.io/mainnet/application/1040271396"
+   },
+   {
+    "id": "101346",
+    "url": "https://lora.algokit.io/mainnet/application/1134695678"
+   }
+  ],
+  "audits": []
+ },
+ {
+  "slug": "audit-competition-ens",
+  "project": "Audit Competition | ENS",
+  "maxBounty": 70000,
+  "isPaused": false,
+  "inviteOnly": false,
+  "kyc": true,
+  "launchDate": "2026-08-18T08:00:00.000Z",
+  "endDate": "2026-09-14T11:00:00.000Z",
+  "rewardsToken": "USDC",
+  "updatedDate": "2026-10-08T11:34:46.261Z",
+  "rewards": [
+   {
+    "level": "critical",
+    "payout": "Portion of the Reward Pool",
+    "assetType": "websites_and_applications",
+    "pocRequired": false
+   },
+   {
+    "level": "high",
+    "payout": "Portion of the Reward Pool",
+    "assetType": "websites_and_applications",
+    "pocRequired": false
+   },
+   {
+    "level": "medium",
+    "payout": "Portion of the Reward Pool",
+    "assetType": "websites_and_applications",
+    "pocRequired": false
+   },
+   {
+    "level": "low",
+    "payout": "Portion of the Reward Pool",
+    "assetType": "websites_and_applications",
+    "pocRequired": false
+   }
+  ],
+  "assets": [
+   {
+    "id": "db_df9e4786-da8c-4741-9f95-2c053fb1605e",
+    "url": "https://github.com/immunefi-team/audit-comp-ens/tree/audit-comp-ready/apps/manager"
+   },
+   {
+    "id": "db_3651673d-637c-43fd-9df0-f090bb995f05",
+    "url": "https://github.com/immunefi-team/audit-comp-ens/tree/audit-comp-ready/apps/portal"
+   },
+   {
+    "id": "db_2b7bb97c-67d8-4759-a761-bc59249b5fcf",
+    "url": "https://github.com/immunefi-team/audit-comp-ens/tree/audit-comp-ready/workers"
+   },
+   {
+    "id": "db_c164c8e8-0516-4edb-a962-dfe799887a68",
+    "url": "https://github.com/immunefi-team/audit-comp-ens/tree/audit-comp-ready/packages/transaction-manager"
+   },
+   {
+    "id": "db_7a11a86c-eead-48bb-88d9-163bcf7e0692",
+    "url": "https://github.com/immunefi-team/audit-comp-ens/tree/audit-comp-ready/packages/smart-account"
+   }
+  ],
+  "audits": []
+ }
+]
