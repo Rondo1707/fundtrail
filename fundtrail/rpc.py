@@ -94,4 +94,7 @@ class RPCClient:
 
 
 def hex_to_int(value: str | None) -> int:
-    return int(value, 16) if value else 0
+    # Some ERC-20s emit Transfer logs with empty data ("0x"); treat that as zero.
+    if not value or value in ("0x", "0X"):
+        return 0
+    return int(value, 16)

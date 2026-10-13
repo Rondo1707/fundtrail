@@ -76,3 +76,11 @@ def test_tips_with_recorded_responses() -> None:
     assert res["all_ok"] is False
     res_all = run_tips(cfg, include_optional=True, factory=factory, now=lambda: now)
     assert {r["chain"] for r in res_all["chains"]} >= {"bsc", "polygon"}
+
+
+def test_hex_to_int_empty_data():
+    from fundtrail.rpc import hex_to_int
+    assert hex_to_int("0x") == 0
+    assert hex_to_int(None) == 0
+    assert hex_to_int("") == 0
+    assert hex_to_int("0x10") == 16
